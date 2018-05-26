@@ -16,4 +16,8 @@ function appendKitten(Broom){
   var array = [...kittens, "Broom"]
   return array
 }
-function prependKitten()
+function prependKitten(Arnold){
+ 
+  var arr = ["Arnold", ...kittens]
+  return arr
+}
